@@ -172,19 +172,3 @@ section {
         text-align:center;
     }
 }
-
-/* DISTRIBUCIÓ FLEX A LA LLISTA DE RECEPTES */
-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-section article {
-    width: 300px;
-}
-}
-
-
-
