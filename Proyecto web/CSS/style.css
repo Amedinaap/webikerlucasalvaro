@@ -167,6 +167,12 @@ section {
     gap: 20px;
 }
 
+
+    section article{
+        text-align:center;
+    }
+}
+
 /* DISTRIBUCIÓ FLEX A LA LLISTA DE RECEPTES */
 section{
     display:flex;
