@@ -34,7 +34,7 @@ header{
 header h1{
     margin:0;
     color:var(--color-primari);
-    font-size:2rem;
+    font-size:2rem; /* canviat a unitats relatives */
 }
 
 nav ul{
@@ -149,6 +149,24 @@ footer a:hover{
     section article{
         text-align:center;
     }
+
+    /* Ajust responsive mínim afegit */
+    main{
+        padding:10px;
+    }
+}
+
+/* ----------------------------------------------------------
+   Complements per a la Fase 2 (Flexbox + Unitats relatives)
+----------------------------------------------------------- */
+
+/* Flexbox bàsic per estructurar el contingut principal */
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* DISTRIBUCIÓ FLEX A LA LLISTA DE RECEPTES */
 section{
     display:flex;
