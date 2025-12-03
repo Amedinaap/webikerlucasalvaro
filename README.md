@@ -1,3 +1,4 @@
+HTML:
 **Estructura del projecte (Dins la carpeta proyecto web):**
 Carpetes: Videos, Audio, Imatges.
 Arxius: Index.html, Contingut.html, Detall_Pasta.html, Detall_Galetes.html, Detall_Truita.html, Info.html.
