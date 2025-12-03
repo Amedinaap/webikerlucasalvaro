@@ -1,9 +1,3 @@
-/* ----------------------------------------------------------
-    Receptant · Full d'Estils Principal
-    Autor: (el teu nom)
-    Fase 2 Projecte Web - CSS
------------------------------------------------------------ */
-
 /* ---------- VARIABLES DE COLOR ---------- */
 :root{
     --color-primari:#d35400; /* taronja gastronòmic */
@@ -178,4 +172,18 @@ section {
         text-align:center;
     }
 }
+
+/* DISTRIBUCIÓ FLEX A LA LLISTA DE RECEPTES */
+section{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+section article{
+    width:300px;
+}
+}
+
 
