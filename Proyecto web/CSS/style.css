@@ -1,0 +1,158 @@
+/* ----------------------------------------------------------
+    Receptant · Full d'Estils Principal
+    Autor: (el teu nom)
+    Fase 2 Projecte Web - CSS
+----------------------------------------------------------- */
+
+/* ---------- VARIABLES DE COLOR ---------- */
+:root{
+    --color-primari:#d35400; /* taronja gastronòmic */
+    --color-secundari:#f39c12;
+    --color-fons:#fffaf2;
+    --color-text: #333;
+    --color-header:#ffffff;
+    --color-footer:#222;
+}
+
+/* ---------- ESTILS GLOBALS ---------- */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:var(--color-fons);
+    color:var(--color-text);
+    line-height:1.6;
+}
+
+img, video{
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+
+/* ---------- HEADER I NAV ---------- */
+
+header{
+    background:var(--color-header);
+    padding:1rem 2rem;
+    border-bottom:3px solid var(--color-primari);
+}
+
+header h1{
+    margin:0;
+    color:var(--color-primari);
+    font-size:2rem;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+    margin-top:10px;
+    display:flex;
+    gap:1.2rem;
+    flex-wrap:wrap;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--color-text);
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:var(--color-primari);
+}
+
+/* ---------- CONTINGUT GENERAL ---------- */
+
+main{
+    padding:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+section, article{
+    margin-bottom:30px;
+}
+
+/* ---------- PÀGINA CONTINGUT (Llista de receptes) ---------- */
+
+section article{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.08);
+    margin-bottom:20px;
+}
+
+section article h2{
+    margin-top:0;
+    color:var(--color-primari);
+}
+
+section article p a{
+    background:var(--color-primari);
+    padding:8px 12px;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:.9rem;
+}
+
+section article p a:hover{
+    background:var(--color-secundari);
+}
+
+/* ---------- TAULES RECEPTA ---------- */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:15px;
+}
+
+table th{
+    background:var(--color-primari);
+    color:white;
+    padding:8px;
+}
+
+table td{
+    border:1px solid #ccc;
+    padding:8px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:var(--color-footer);
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+footer a{
+    color:var(--color-secundari);
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+/* ---------- RESPONSIVE (Mòbil) ---------- */
+
+@media(max-width:700px){
+    nav ul{
+        flex-direction:column;
+        gap:.5rem;
+    }
+
+    header h1{
+        font-size:1.6rem;
+    }
+
+    section article{
+        text-align:center;
+    }
+}
