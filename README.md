@@ -1,6 +1,6 @@
 **HTML:**
 
-Estructura del proyecto (Dins la carpeta proyecto web):
+**Estructura del proyecto (Dins la carpeta proyecto web):**
 
 Carpetes: Vídeos, Audios, Imágenes.
 
@@ -20,7 +20,7 @@ detall_truita.html- Álvaro
 
 info.html-Iker
 
-**Descripción de cada arxiu**
+**Descripció de cada arxiu**
 
 **Index.html:** Inicio de la página web con audio de benvinguda inclos.
 
@@ -34,7 +34,7 @@ info.html-Iker
 
 **info.html:** Información sobre nosotros incluye las redes sociales y contactos.
 
-**CSS**
+**CSS:**
 
 **Descripción del diseño visual triat**
 
@@ -59,4 +59,5 @@ S'han afegit dos formularis a la web:
 - Un formulari de contacte, visible per a l'usuari, amb camps de nom, correu electrònic i missatge.
 
 La validació s’ha controlat mitjançant HTML5, utilitzant l’atribut required i tipus d’entrada específics com email, permetent que el navegador verifiqui les dades abans de l’enviament.  
+
 Els formularis s'han estilitzat amb CSS utilitzant Flexbox per garantir una estructura clara i adaptada a dispositius mòbils, mantenint l'estètica general de la web.
